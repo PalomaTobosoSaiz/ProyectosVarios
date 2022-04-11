@@ -1,0 +1,130 @@
+body {
+  background-color: rgb(252, 245, 245);
+}
+
+h1 {
+  color: red;
+  font-family: sans-serif, Helvetica, Arial;
+}
+
+p {
+  color: red;
+}
+
+.caja {
+  border: 1px solid black;
+  width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+.caja h1 {
+  color: blue;
+}
+.caja p {
+  color: green;
+}
+.caja .info {
+  font-size: 10px;
+}
+.caja .info .autor {
+  font-size: 15px;
+  color: rgba(211, 164, 9, 0.699);
+}
+
+.caja {
+  border: 5px solid red;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 10px black;
+}
+
+.listado {
+  border: 5px solid green;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 8px yellow;
+}
+
+.a-success, .a-danger, .alert {
+  border: 1px solid gray;
+  background: #eee;
+  color: gray;
+  padding: 10px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.a-danger {
+  color: red;
+  border-color: red;
+}
+
+.a-success {
+  color: rgb(18, 214, 60);
+  border-color: rgb(5, 80, 21);
+}
+
+.clearfix {
+  clear: both;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.cajas {
+  width: 900px;
+  margin: 90px auto;
+}
+
+.caja {
+  float: left;
+  width: 22.2222222222%;
+  margin: 10px;
+}
+
+h1 {
+  color: aqua;
+}
+
+.listado ul li:nth-child(1) {
+  color: orange;
+  font-size: 11px;
+}
+
+.listado ul li:nth-child(2) {
+  color: orange;
+  font-size: 12px;
+}
+
+.listado ul li:nth-child(3) {
+  color: orange;
+  font-size: 13px;
+}
+
+.listado ul li:nth-child(4) {
+  color: orange;
+  font-size: 14px;
+}
+
+.listado ul li:nth-child(5) {
+  color: orange;
+  font-size: 15px;
+}
+
+.listado ul li:nth-child(6) {
+  color: orange;
+  font-size: 16px;
+}
+
+.listado ul li:nth-child(7) {
+  color: orange;
+  font-size: 17px;
+}
+
+.listado ul li:nth-child(8) {
+  color: orange;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=styles.css.map */

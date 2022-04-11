@@ -1,0 +1,152 @@
+//Variables
+$fuente-tipica: sans-serif,
+Helvetica,
+Arial;
+$color-fondo: rgb(252, 245, 245);
+$color-letra: red;
+$color-secundario:rgb(122, 20, 20);
+
+//USo de variables
+body {
+    background-color: $color-fondo;
+}
+
+h1 {
+    color: $color-letra;
+    font-family: $fuente-tipica;
+}
+
+p {
+    color: $color-letra;
+}
+
+//Anidacion 
+.caja {
+    border: 1px solid black;
+    width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+
+    h1 {
+        color: blue;
+    }
+
+    p {
+        color: green;
+    }
+
+    .info {
+        font-size: 10px;
+
+        .autor {
+            font-size: 15px;
+            color: rgba(211, 164, 9, 0.699);
+
+        }
+    }
+}
+
+//Mixins para funciones
+@mixin crearBorder($color, $size, $shadow) {
+    border: 5px solid $color;
+    border-radius: $size;
+    box-shadow: 0px 0px 5px $size $shadow;
+}
+
+
+.caja {
+    @include crearBorder(red, 10px, black);
+    
+}
+
+.listado {
+    @include crearBorder(green, 8px, yellow);
+}
+
+//Herencia 
+%alert-normal {
+    border: 1px solid gray;
+    background: #eee;
+    color: gray;
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.alert {
+    @extend %alert-normal;
+
+}
+
+.a-danger {
+    @extend %alert-normal;
+    color: red;
+    border-color: red;
+}
+
+.a-success {
+    @extend %alert-normal;
+    color: rgb(18, 214, 60);
+    border-color: rgb(5, 80, 21);
+}
+
+//Operadores
+
+.clearfix {
+    clear: both;
+}
+
+h1 {
+    font-size: 20px +5px;
+}
+
+$caja: 200px;
+$wrap: 900px;
+
+.cajas {
+    width: $wrap;
+    margin: 90px auto;
+}
+
+.caja {
+    float: left;
+    width: $caja /$wrap *100%;
+    margin: 10px;
+}
+
+
+//COndicionales -if
+
+$color-fondo:orange;
+h1 {
+    @if $color-fondo==#ccc {
+        color:black;
+    }
+
+    @else if $color-fondo == black {
+        color: burlywood;
+    }@else{
+        color: aqua;
+    }
+}
+
+//FOR
+
+$contador:1;
+@for $contador from 1 through 8{
+
+    .listado ul li:nth-child(#{$contador}){
+        color: orange;
+        font-size: $contador +10px;
+    } 
+} 
+
+
+
+
+//EACH
+
+
+//WHILE
