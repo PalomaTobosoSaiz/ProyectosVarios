@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 //Crear un modulo llamado contadorModule: 
 import { contadorModule } from './contadores/contador.module';
+import { DbzModule } from './dbz/dbz.module';
 
 
 
@@ -22,7 +23,8 @@ import { HeroesModule } from './heroes/heroes.module';
     BrowserModule,
     AppRoutingModule,
     HeroesModule,
-    contadorModule
+    contadorModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
