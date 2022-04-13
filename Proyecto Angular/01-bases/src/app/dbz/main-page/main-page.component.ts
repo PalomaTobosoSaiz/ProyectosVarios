@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ChildActivationStart } from '@angular/router';
+
 import { Personaje } from '../interfaces/dbz.interface';
 
 import { DbzService} from '../services/dbz.service';
