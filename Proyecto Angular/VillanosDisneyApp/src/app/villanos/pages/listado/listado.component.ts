@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { VillanosPelis } from '../../interfaces/villanos.interfaces';
+import { VillanosService } from '../../services/villanos.service';
 
 @Component({
   selector: 'app-listado',
@@ -8,9 +10,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListadoComponent implements OnInit {
 
-  constructor() { }
+  villanos:  VillanosPelis[]=[];
+
+  constructor(private villanosService: VillanosService) { }
 
   ngOnInit(): void {
+    this.villanosService.getVillanos().subscribe(villanos => {
+      this.villanos=villanos;
+
+    });
+
   }
 
 }

@@ -1,0 +1,99 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "Paloma",
+      "email": "paloma@gmail.com"
+    }
+  ],
+  "villanos": [
+    {
+      "id": "Cruella",
+      "villanos": "Cuella",
+      "publisher": "Disney",
+      "alter_ego": "CRUELLA DE VIL",
+      "first_appearance": "101 dalmatas disney",
+      "characters": "CR"
+    },
+    {
+      "id": "garfio",
+      "villanos": "Garfio",
+      "publisher": "Disney",
+      "alter_ego": "CAPITAN GARFIO",
+      "first_appearance": "Pelicula Peter Pan",
+      "characters": "G"
+    },
+    {
+      "id": "hades",
+      "villanos": "Hades",
+      "publisher": "Disney",
+      "alter_ego": "HADES ",
+      "first_appearance": "Pelicula de Hercules",
+      "characters": "HD"
+    },
+    {
+      "id": "Jafar",
+      "villanos": "Jafar",
+      "publisher": "Disney",
+      "alter_ego": "JAFAR",
+      "first_appearance": "Pelicula de Aladin",
+      "characters": "J"
+    },
+    {
+      "id": "malefica",
+      "villanos": "Malefica",
+      "publisher": "Disney",
+      "alter_ego": "MALEFICA",
+      "first_appearance": "Pelicula de Malefica",
+      "characters": "M"
+    },
+    {
+      "id": "Scar",
+      "villanos": "Scar",
+      "publisher": "Disney",
+      "alter_ego": "SCAR",
+      "first_appearance": "Pelicula del Rey Leon",
+      "characters": "S"
+    },
+    {
+      "id": "Ursula",
+      "villanos": "Ursula",
+      "publisher": "Disney",
+      "alter_ego": "URSULA",
+      "first_appearance": "Pelicula de la Sirenita",
+      "characters": "U"
+    },
+    {
+      "id": "Yzma",
+      "villanos": "Yzma",
+      "publisher": "Disney",
+      "alter_ego": "Y",
+      "first_appearance": "Kuzco y sus locuras",
+      "characters": "Y"
+    },
+	{
+      "id": "oso",
+      "villanos": "Oso Toy Story",
+      "publisher": "Pixar",
+      "alter_ego": "LOTSO",
+      "first_appearance": "Toy Story",
+      "characters": "O"
+    },
+	{
+      "id": "sindrome",
+      "villanos": "Sindrome",
+      "publisher": "Pixar",
+      "alter_ego": "SINDROME",
+      "first_appearance": "Los increibles",
+      "characters": "Si"
+    },
+	{
+      "id": "zurg",
+      "villanos": "Empreador Zurg",
+      "publisher": "Pixar",
+      "alter_ego": "EMPERADOR ZURG",
+      "first_appearance": "Toy Story 2",
+      "characters": "Z"
+    }
+  ]
+}
