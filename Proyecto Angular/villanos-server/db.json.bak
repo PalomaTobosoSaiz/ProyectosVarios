@@ -23,13 +23,13 @@
       "first_appearance": "Pelicula Peter Pan",
       "characters": "G"
     },
-    {
-      "id": "hades",
-      "villanos": "Hades",
+	   {
+      "id": "Yzma",
+      "villanos": "Yzma",
       "publisher": "Disney",
-      "alter_ego": "HADES ",
-      "first_appearance": "Pelicula de Hercules",
-      "characters": "HD"
+      "alter_ego": "Y",
+      "first_appearance": "Kuzco y sus locuras",
+      "characters": "Y"
     },
     {
       "id": "Jafar",
@@ -63,13 +63,13 @@
       "first_appearance": "Pelicula de la Sirenita",
       "characters": "U"
     },
-    {
-      "id": "Yzma",
-      "villanos": "Yzma",
+	{
+      "id": "hades",
+      "villanos": "Hades",
       "publisher": "Disney",
-      "alter_ego": "Y",
-      "first_appearance": "Kuzco y sus locuras",
-      "characters": "Y"
+      "alter_ego": "HADES ",
+      "first_appearance": "Pelicula de Hercules",
+      "characters": "HD"
     },
 	{
       "id": "oso",
@@ -91,7 +91,15 @@
       "id": "zurg",
       "villanos": "Empreador Zurg",
       "publisher": "Pixar",
-      "alter_ego": "Z",
+      "alter_ego": "EMPERADOR ZURG",
+      "first_appearance": "Toy Story 2",
+      "characters": "Z"
+    },
+	{
+      "id": "randall",
+      "villanos": "Randall Boggs",
+      "publisher": "Pixar",
+      "alter_ego": "EMPERADOR ZURG",
       "first_appearance": "Toy Story 2",
       "characters": "Z"
     }

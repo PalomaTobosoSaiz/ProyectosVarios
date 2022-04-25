@@ -24,12 +24,12 @@
       "characters": "G"
     },
     {
-      "id": "hades",
-      "villanos": "Hades",
+      "id": "Yzma",
+      "villanos": "Yzma",
       "publisher": "Disney",
-      "alter_ego": "HADES ",
-      "first_appearance": "Pelicula de Hercules",
-      "characters": "HD"
+      "alter_ego": "Y",
+      "first_appearance": "Kuzco y sus locuras",
+      "characters": "Y"
     },
     {
       "id": "Jafar",
@@ -64,14 +64,14 @@
       "characters": "U"
     },
     {
-      "id": "Yzma",
-      "villanos": "Yzma",
+      "id": "hades",
+      "villanos": "Hades",
       "publisher": "Disney",
-      "alter_ego": "Y",
-      "first_appearance": "Kuzco y sus locuras",
-      "characters": "Y"
+      "alter_ego": "HADES ",
+      "first_appearance": "Pelicula de Hercules",
+      "characters": "HD"
     },
-	{
+    {
       "id": "oso",
       "villanos": "Oso Toy Story",
       "publisher": "Pixar",
@@ -79,7 +79,7 @@
       "first_appearance": "Toy Story",
       "characters": "O"
     },
-	{
+    {
       "id": "sindrome",
       "villanos": "Sindrome",
       "publisher": "Pixar",
@@ -87,13 +87,30 @@
       "first_appearance": "Los increibles",
       "characters": "Si"
     },
-	{
+    {
       "id": "zurg",
       "villanos": "Empreador Zurg",
       "publisher": "Pixar",
       "alter_ego": "EMPERADOR ZURG",
       "first_appearance": "Toy Story 2",
       "characters": "Z"
+    },
+    {
+      "id": "randall",
+      "villanos": "Randall Boggs",
+      "publisher": "Pixar",
+      "alter_ego": "RANDALL B.",
+      "first_appearance": "Mousters S.A",
+      "characters": "R"
+    },
+    {
+      "villanos": "paloma",
+      "alter_ego": "",
+      "characters": "",
+      "first_appearance": "",
+      "publisher": "Pixar",
+      "alt_img": "",
+      "id": "7g8MeCG"
     }
   ]
 }

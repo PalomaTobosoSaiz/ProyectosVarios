@@ -1,1 +1,58 @@
-<p>agregar works!</p>
+<h1>Nuevo Villano <small>nombre</small></h1>
+
+<div fxLayout="row" fxLayoutGap="40px" fxLayout="column">
+
+
+    <div fxFlex="50" fxLayout="column">
+        <div fxLayout="row" fxLayoutGap="40px">
+            <mat-form-field fxFlex="100" fxLayout="column">
+                <mat-label>Los Villanos</mat-label>
+                <input matInput type="text" [(ngModel)]="villano.villanos" required>
+            </mat-form-field>
+            <mat-form-field fxFlex="100">
+                <mat-label>ALter Ego</mat-label>
+                <input matInput type="text" [(ngModel)]="villano.alter_ego"  required>
+
+            </mat-form-field>
+        </div>
+        <mat-form-field>
+            <mat-label>Primera Aparicion</mat-label>
+            <input matInput type="text" [(ngModel)]="villano.first_appearance"  required>
+
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Personajes</mat-label>
+            <input matInput type="text" [(ngModel)]="villano.characters"  required>
+
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Creador</mat-label>
+            <mat-select [(ngModel)]="villano.publisher"  required>
+            <mat-option *ngFor="let publisher of publishers" [value]="publisher.id">{{publisher.desc}}
+            </mat-option>
+        </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Foto Url</mat-label>
+            <input matInput type="url"  [(ngModel)]="villano.alt_img" required>
+
+        </mat-form-field>
+
+        <br>
+        <button mat-raised-button color="primary"
+        (click)="guardar()">
+            <mat-icon>edit</mat-icon>
+            Guardar
+        </button>
+
+        <div fxFlex="50">
+            <img [src]="villano | imagen">
+        </div>
+
+
+
+
+    </div>
+
+</div>

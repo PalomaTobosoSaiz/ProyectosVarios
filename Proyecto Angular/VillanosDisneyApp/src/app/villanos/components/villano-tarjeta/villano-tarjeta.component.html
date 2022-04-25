@@ -1,0 +1,27 @@
+<mat-card >
+    <mat-card-header>
+
+        <mat-card-title>{{villano.villanos}}</mat-card-title>
+
+        <mat-card-subtitle>{{villano.alter_ego}}</mat-card-subtitle>
+
+    </mat-card-header>
+
+    <!-- <img mat-card-image src="assets/villanos/{{villano.id}}.jpg"> -->
+    <img mat-card-image [src]="villano | imagen">
+
+    <mat-card-content>
+        <h3>{{villano.publisher}}</h3>
+        <p>
+            <strong>Primera aparicion</strong>{{villano.first_appearance}}
+            <br>
+            <strong>Personajes: </strong> {{villano.characters}}
+        </p>
+    </mat-card-content>
+
+
+    <mat-card-actions>
+        <button mat-button [routerLink]="['/villanos',villano.id]" >Leer mas...</button>
+        <button mat-button color="warn" [routerLink]="['/villanos/editar',villano.id]">Editar</button>
+    </mat-card-actions>
+</mat-card>

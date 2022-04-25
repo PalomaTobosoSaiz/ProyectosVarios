@@ -5,8 +5,7 @@ import { VillanosService } from '../../services/villanos.service';
 @Component({
   selector: 'app-listado',
   templateUrl: './listado.component.html',
-  styles: [
-  ]
+  styles: []
 })
 export class ListadoComponent implements OnInit {
 
